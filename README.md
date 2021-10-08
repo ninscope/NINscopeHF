@@ -10,7 +10,7 @@ Notable changes:
 - The GUI of the control software has been modified to select different NINscope HF configurations (i.e. dimensions, binning, frame rate).
 - The data is written out in RAW rather than TIFF format.
 - The use of an SSD drive is a requirement to handle the higher read-write speeds.
-- Due to the efficient Gstreamer libraries for writing to disk on Linux, we currently only support this OS to run NINscope HF.
+- Due to the efficient Gstreamer libraries for writing to disk on Linux, we currently only support this OS to run NINscope HF. We have tested on Ubuntu 18.04 and 20.04.
 
 
 Check the wiki page for details https://github.com/ninscope/NINscopeHF/wiki
