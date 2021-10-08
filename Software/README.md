@@ -12,8 +12,10 @@ Control software has been modified from the original NINscope software to allow 
 - Copy the NINscope HF (modified from regular) video library to the processing libraries folder. (Location: /home/<username>/sketchbook/libraries/)
 - Issue the following commands in a terminal:
 > sudo modprobe usbserial vendor=0x04b4 product=0xf139
+  
 > sudo chown <USER> /dev/ttyUSB0 
-> where <USER> is your username w/out brackets
+
+ Note <USER> is your computer username w/out brackets
 
 It’s best to add these to a bash script and name it LoadUsbserial.sh such that instead of typing you run the script to issue these commands in a terminal prior to starting up the NINscope HF software and after connecting the miniscope to the DAQ and PC. To automatically execute this script in a shell by clicking on, follow instructions in the following link:
 
