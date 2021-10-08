@@ -13,4 +13,4 @@ Notable changes:
 - Due to the efficient Gstreamer libraries for writing to disk on Linux, we currently only support this OS to run NINscope HF. We have tested on Ubuntu 18.04 and 20.04.
 
 
-Check the wiki page for details https://github.com/ninscope/NINscopeHF/wiki
+Check the building instructions here: https://github.com/ninscope/NINscopeHF/wiki/Getting-started
