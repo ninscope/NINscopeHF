@@ -14,3 +14,5 @@ Notable changes:
 
 
 Check the **building instructions** here: https://github.com/ninscope/NINscopeHF/wiki/Getting-started
+
+[Software](https://github.com/ninscope/NINscopeHF/tree/main/Software) 
