@@ -8,8 +8,9 @@ Notable changes:
 - The PPL (phase-locked loop) is switched on to handle large bandwidth recordings
 - The PCBs are cooled by a constant jet of pressurized air. A thin flexible tubing is attached to the NINscope for this purpose. The sensor housing has been modified and the eletronic assembly is held in place by two screws rather than held in an enclosure to facilitate air flow.
 - The GUI of the control software has been modified to select different NINscope HF configurations (i.e. dimensions, binning, frame rate).
-- The use of an SSD drive is recommended for higher read-write speeds.
-- Due to the more efficient libraries for writing to disk on Linux, we curerntly only support this OS to run NINscope HF.
+- The data is written out in RAW rather than TIFF format.
+- The use of an SSD drive is a requirement to handle the higher read-write speeds.
+- Due to the efficient Gstreamer libraries for writing to disk on Linux, we currently only support this OS to run NINscope HF.
 
 
 Check the wiki page for details https://github.com/ninscope/NINscopeHF/wiki
