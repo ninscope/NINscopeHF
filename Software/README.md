@@ -24,7 +24,7 @@ https://itsfoss.com/shell-script-opens-text-editor/
 
 ### Connecting and startup
   
-  1. Connect your NINscope HF to the DAQ board with updasted firmware and the DAQ board to the computer. A red light should flash indicating the connection is made and all green LEDs on the DAQ box should be on.
+  1. Connect your NINscope HF to the DAQ board with updated firmware and the DAQ board to the computer. A red light on top of the interface PCB on the minsicope should blink three times indicating it is recognized. Also check that all green LEDs on the DAQ box are on.
   2. Run the LoadUsbserial.sh script to execute the commands listed above.
   3. Open the NINscopeHF.pde Processing sketch and Run the program.
   4. Start acquiring data.
