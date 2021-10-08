@@ -15,7 +15,7 @@ Control software has been modified from the original NINscope software to allow 
   
 > sudo chown [username] /dev/ttyUSB0 
 
- Note [username] is your computer username w/out brackets, e.g. john, or andres.
+ Note [username] is your computer username w/out brackets, e.g. tycho, or andres.
 
 It’s best to add these to a bash script and name it LoadUsbserial.sh such that instead of typing you run the script to issue these commands in a terminal prior to starting up the NINscope HF software and after connecting the miniscope to the DAQ and PC. To automatically execute this script in a shell by clicking on, follow instructions in the following link:
 
