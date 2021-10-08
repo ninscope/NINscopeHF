@@ -1,5 +1,5 @@
 # NINscopeHF
-NINscope HF is a miniscope based on a regular NINscope with high frame rate capabilities with hardware, firmware and software changes. 
+NINscope HF is a miniscope based on a regular NINscope that has modified firmware, software and hardware to allow high frame rate (up to 500 Hz) acquisition. 
 
 There are a number of modifications to allow recording at high frame rates both in hardware and software. 
 
