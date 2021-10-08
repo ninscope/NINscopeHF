@@ -1,7 +1,7 @@
-# Basic Requirements
+### Basic Requirements
 In order to begin acquiring data with NINscopeHF, firmware needs to be updated on the DAQ, a modified video driver needs to be installed and a NINscopeHF specific version of the acquisition software needs to be installed on a computer with Linux as operating system (e.g. Ubuntu 20.04).
 
-# Changes relative to regular NINscope
+### Changes relative to regular NINscope
 Control software has been modified from the original NINscope software to allow setting of the frame rate and binning mode. Rather than writing data to TIFF images, the data stream is written to a RAW document file ‘ImageScope1.raw’. A program such as ImageJ, or FIJI can be used to read this RAW file using the parameters (dimensions + frame number) specified in an accompanying text file ‘ImageScope1.raw.txt’. Device timestamps are stored in a .CSV document ‘TimeStamp.csv’.
 
 ### Software Installation 
