@@ -1,3 +1,5 @@
+# NINscopeHF Software
+
 ### Basic Requirements
 In order to begin acquiring data with NINscopeHF, firmware needs to be updated on the DAQ, a modified video driver needs to be installed and a NINscopeHF specific version of the acquisition software needs to be installed on a computer with Linux as operating system (e.g. Ubuntu 20.04).
 
