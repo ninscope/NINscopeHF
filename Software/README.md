@@ -30,3 +30,5 @@ https://itsfoss.com/shell-script-opens-text-editor/
   2. Run the LoadUsbserial.sh script to execute the commands listed above.
   3. Open the NINscopeHF.pde Processing sketch and Run the program.
   4. Start acquiring data.
+  
+  [Hardware](https://github.com/ninscope/NINscopeHF/wiki/Getting-Started)
