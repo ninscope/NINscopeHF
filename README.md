@@ -5,7 +5,7 @@ Notable changes:
 
 - The firmware on the DAQ has been updated
 - The video driver has been modified
-- The PPL (phase-locked loop) is switched on to handle large bandwidth recordings
+- The PLL (phase-locked loop) is switched on to handle large bandwidth recordings
 - The PCBs are cooled by a constant jet of pressurized air. A thin flexible tubing is attached to the NINscope for this purpose. A [new sensor housing](https://github.com/ninscope/NINscopeHF/blob/main/Hardware/sensor_holder_HF.stp) holds the eletronic assembly in place with two screws to facilitate air flow.
 - The GUI of the control software has been modified to select different NINscope HF configurations (i.e. dimensions, binning, frame rate).
 - The data is written out in RAW rather than TIFF format.
