@@ -6,16 +6,6 @@ In order to begin acquiring data with NINscopeHF, firmware needs to be updated o
 ### Changes relative to regular NINscope
 Control software has been modified from the original NINscope software to allow setting of the frame rate and binning mode. Rather than writing data to TIFF images, the data stream is written to a RAW document file ‘ImageScope1.raw’. A program such as ImageJ, or FIJI can be used to read this RAW file using the parameters (dimensions + frame number) specified in an accompanying text file ‘ImageScope1.raw.txt’. Device timestamps are stored in a .CSV document ‘TimeStamp.csv’.
 
-### Regulator for pressurized air, connectors and tubing
- - 1x           RS-stocknr.:122-649       Norgren G 1/8 Pneumatic Regulator - 0.3bar to 7bar       
- - 1x           RS-stocknr.:865-5945      SMC Back Entry Pressure Gauge 2bar, 4K8-2.5
- - 2x           RS-stocknr.:812-049        Legris Straight Threaded Adaptor to G 1/8 Male to Push In 6 mm, LF3000 Series 20 bar
- - 1m          RS-stocknr.:144-7897      Legris Air Hose Blue Polyurethane 6mm x 100m 1100U Series
- - 1x           RS-stocknr.:145-3727      Legris Pneumatic Manual Control Valve 7910 Series
- - 1x          RS-stocknr.:146-5137     Legris Reducer Nipple to Push In 6 mm to Push In 4 mm, 3168 Series 20 bar
- - 1x           Metal tube 1-1.5mm thickness
- 
-
 ### Software Installation 
 - Install a Linux Distro on your computer, or laptop
 - Install openjdk
