@@ -6,6 +6,10 @@ In order to begin acquiring data with NINscopeHF, firmware needs to be updated o
 ### Changes relative to regular NINscope
 Control software has been modified from the original NINscope software to allow setting of the frame rate and binning mode. Rather than writing data to TIFF images, the data stream is written to a RAW document file ‘ImageScope1.raw’. A program such as ImageJ, or FIJI can be used to read this RAW file using the parameters (dimensions + frame number) specified in an accompanying text file ‘ImageScope1.raw.txt’. Device timestamps are stored in a .CSV document ‘TimeStamp.csv’.
 
+### Supported versions of Processing
+
+We recommend using Processing 3.5.4, which has been tested with NINscope. We have reports from users that encounter errors after installation of Processing 4.
+
 ### Software Installation 
 - Install a Linux Distro on your computer, or laptop
 - Install openjdk
